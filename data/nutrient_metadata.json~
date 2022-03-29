@@ -1,0 +1,38 @@
+[
+    {
+	"name": "vitA",
+	"long": "Vitamin A",
+	"RDA":  ["mcg",
+		 "adult men", 900,
+		 "adult women", 700,
+		],
+	"UL": ["adults", 3000]
+    },
+    {
+	"name": "vitB6",
+	"long": "Pyroxidine",
+	"RDA":  ["mg",
+		 "men 14-50", 1.3,
+		 "men 51+", 1.7,
+		 "women 14-18", 1.2,
+		 "women 19-50", 1.3,
+		 "women 51+", 1.5,
+		 "pregnant", 1.9,
+		 "lactating", 2.0
+		],
+	"UL": ["adults", 100],
+    }
+        {
+	"name": "vitB12",
+	"long": "Niacin",
+	"RDA":  ["mg",
+		 "men 14-50", 1.3,
+		 "men 51+", 1.7,
+		 "women 14-18", 1.2,
+		 "women 19-50", 1.3,
+		 "women 51+", 1.5,
+		 "pregnant", 1.9,
+		 "lactating", 2.0
+		],
+	"UL": ["adults", 100],
+    }

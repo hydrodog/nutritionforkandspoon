@@ -1,0 +1,20 @@
+[
+{
+    "name": "green pea",
+    "unit": "1/2cup",
+    "kcal": 62,
+    "carbs": 11,
+    "fiber": 4,
+    "protein": 4,
+    "vitA": "55.1",
+    "vitK": "24%",
+    "vitC": "13%",
+    "thiamine": "15%",
+    "folate": "12%",
+    "manganese": "11%",
+    "Fe": "7%",
+    "Ca": "18", // mg
+    "P":  "6%",
+    "NaCl": 
+    
+}

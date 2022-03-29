@@ -1,0 +1,193 @@
+[
+    {
+	"author": "Dov Kruger",
+	"contact": "dkruger@stevens.edu",
+	"source": "https://www.hsph.harvard.edu/nutritionsource/vitamin-a/"
+    },
+    {
+	"name": "vitA",
+	"long": "Vitamin A",
+	"RDA":  ["mcg",
+		 "adult men", 900,
+		 "adult women", 700,
+		],
+	"UL": ["adults", 3000]
+    },
+    {
+	"name": "vitB1",
+	"long": "Thiamin",
+	"RDA":  ["??",
+		],
+	"UL": []
+    },
+    {
+	"name": "vitB2",
+	"long": "Riboflavin",
+	"RDA":  ["??",
+		],
+	"UL": []
+    },
+    {
+	"name": "vitB3",
+	"long": "niacin",
+	"RDA":  ["mg",
+		 "men 19+", 16,
+		 "women 19+", 14,
+		 "pregnant", 18,
+		 "lactating", 17		 
+		],
+	"UL": ["adults 19+", 35]
+    },
+    {
+	"name": "vitB5",
+	"long": "Pantothenic Acid",
+	"RDA":  ["??",
+		],
+	"UL": []
+    },
+    {
+	"name": "vitB6",
+	"long": "Pyroxidine",
+	"RDA":  ["mg",
+		 "men 14-50", 1.3,
+		 "men 51+", 1.7,
+		 "women 14-18", 1.2,
+		 "women 19-50", 1.3,
+		 "women 51+", 1.5,
+		 "pregnant", 1.9,
+		 "lactating", 2.0
+		],
+	"UL": ["adults", 100]
+    },
+    {
+	"name": "vitB9",
+	"long": "Folate",
+	"RDA":  ["??",
+		],
+	"UL": []
+    },
+    {
+	"name": "vitB12",
+	"long": "Cobalamin",
+	"RDA":  ["??",
+		],
+	"UL": []
+    },
+    {
+	"name": "vitC",
+	"long": "Vitamin C",
+	"RDA":  ["mg",
+		 "men 19+", 90,
+		 "women 19+", 75,
+		 "pregnant", 18,
+		 "lactating", 17,
+		 "smokers", "+35"
+		],
+	"UL": ["adults", 2000]
+    },
+    {
+	"name": "vitD",
+	"long": "Vitamin D",
+	"RDA":  ["mg",
+		 "men 19+", 90,
+		 "women 19+", 75,
+		 "pregnant", 18,
+		 "lactating", 17,
+		 "smokers", "+35"
+		],
+	"UL": ["adults", 2000]
+    },
+    {
+	"name": "vitE",
+	"long": "Vitamin E",
+	"RDA":  ["??",
+		],
+	"UL": []
+    },
+    {
+	"name": "vitK",
+	"long": "Vitamin K",
+	"RDA":  ["??",
+		],
+	"UL": []
+    },
+
+    {
+	"name": "Ca",
+	"long": "Calcium",
+	"RDA":  ["mg",
+		 "men 19-70", 1000,
+		 "men 71+", 1200,
+		 "women 19-50", 1000,
+		 "women 51+", 1200
+		],
+	"UL": ["adults", 2000]
+    },
+    {
+	"name": "Cu",
+	"long": "Copper",
+	"RDA":  ["??",
+		],
+	"UL": []
+    },
+    {
+	"name": "Mg",
+	"long": "Magnesium",
+	"RDA":  ["??",
+		],
+	"UL": []
+    },
+    {
+	"name": "K",
+	"long": "Potassium",
+	"RDA":  ["??",
+		],
+	"UL": []
+    },
+    {
+	"name": "P",
+	"long": "Phosphorus",
+	"RDA":  ["??",
+		],
+	"UL": []
+    },
+    {
+	"name": "Mn",
+	"long": "Manganese",
+	"RDA":  ["??",
+		],
+	"UL": []
+    },
+    {
+	"name": "Mn",
+	"long": "Manganese",
+	"RDA":  ["??",
+		],
+	"UL": []
+    },
+    {
+	"name": "Se",
+	"long": "Selenium",
+	"RDA":  ["??",
+		],
+	"UL": []
+    },
+    {
+	"name": "Na",
+	"long": "Sodium",
+	"RDA":  ["??",
+		],
+	"UL": []
+    },
+    {
+	"name": "Zn",
+	"long": "Zinc",
+	"RDA":  ["??",
+		],
+	"UL": []
+    },
+
+    
+]
+    
+

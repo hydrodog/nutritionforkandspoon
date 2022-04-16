@@ -5,7 +5,7 @@
 	"source": "https://www.hsph.harvard.edu/nutritionsource/vitamin-a/"
     },
     {
-	"name": "vitA",
+	"name": "vA",
 	"long": "Vitamin A",
 	"RDA":  ["mcg",
 		 "adult men", 900,
@@ -14,21 +14,21 @@
 	"UL": ["adults", 3000]
     },
     {
-	"name": "vitB1",
+	"name": "vB1",
 	"long": "Thiamin",
 	"RDA":  ["??",
 		],
 	"UL": []
     },
     {
-	"name": "vitB2",
+	"name": "vB2",
 	"long": "Riboflavin",
 	"RDA":  ["??",
 		],
 	"UL": []
     },
     {
-	"name": "vitB3",
+	"name": "vB3",
 	"long": "niacin",
 	"RDA":  ["mg",
 		 "men 19+", 16,
@@ -39,14 +39,14 @@
 	"UL": ["adults 19+", 35]
     },
     {
-	"name": "vitB5",
+	"name": "vB5",
 	"long": "Pantothenic Acid",
 	"RDA":  ["??",
 		],
 	"UL": []
     },
     {
-	"name": "vitB6",
+	"name": "vB6",
 	"long": "Pyroxidine",
 	"RDA":  ["mg",
 		 "men 14-50", 1.3,
@@ -60,21 +60,21 @@
 	"UL": ["adults", 100]
     },
     {
-	"name": "vitB9",
+	"name": "vB9",
 	"long": "Folate",
 	"RDA":  ["??",
 		],
 	"UL": []
     },
     {
-	"name": "vitB12",
+	"name": "vB12",
 	"long": "Cobalamin",
 	"RDA":  ["??",
 		],
 	"UL": []
     },
     {
-	"name": "vitC",
+	"name": "vC",
 	"long": "Vitamin C",
 	"RDA":  ["mg",
 		 "men 19+", 90,
@@ -86,7 +86,7 @@
 	"UL": ["adults", 2000]
     },
     {
-	"name": "vitD",
+	"name": "vD",
 	"long": "Vitamin D",
 	"RDA":  ["mg",
 		 "men 19+", 90,
@@ -95,17 +95,17 @@
 		 "lactating", 17,
 		 "smokers", "+35"
 		],
-	"UL": ["adults", 2000]
+	"UL": ["adults", 4000]
     },
     {
-	"name": "vitE",
+	"name": "vE",
 	"long": "Vitamin E",
 	"RDA":  ["??",
 		],
 	"UL": []
     },
     {
-	"name": "vitK",
+	"name": "vK",
 	"long": "Vitamin K",
 	"RDA":  ["??",
 		],
@@ -113,7 +113,7 @@
     },
 
     {
-	"name": "Ca",
+	"name": "mCa",
 	"long": "Calcium",
 	"RDA":  ["mg",
 		 "men 19-70", 1000,
@@ -124,63 +124,63 @@
 	"UL": ["adults", 2000]
     },
     {
-	"name": "Cu",
+	"name": "mCu",
 	"long": "Copper",
 	"RDA":  ["??",
 		],
 	"UL": []
     },
     {
-	"name": "Mg",
+	"name": "mMg",
 	"long": "Magnesium",
 	"RDA":  ["??",
 		],
 	"UL": []
     },
     {
-	"name": "K",
+	"name": "mK",
 	"long": "Potassium",
 	"RDA":  ["??",
 		],
 	"UL": []
     },
     {
-	"name": "P",
+	"name": "mP",
 	"long": "Phosphorus",
 	"RDA":  ["??",
 		],
 	"UL": []
     },
     {
-	"name": "Mn",
+	"name": "mMn",
 	"long": "Manganese",
 	"RDA":  ["??",
 		],
 	"UL": []
     },
     {
-	"name": "Mn",
+	"name": "mMn",
 	"long": "Manganese",
 	"RDA":  ["??",
 		],
 	"UL": []
     },
     {
-	"name": "Se",
+	"name": "mSe",
 	"long": "Selenium",
 	"RDA":  ["??",
 		],
 	"UL": []
     },
     {
-	"name": "Na",
+	"name": "mNa",
 	"long": "Sodium",
 	"RDA":  ["??",
 		],
 	"UL": []
     },
     {
-	"name": "Zn",
+	"name": "mZn",
 	"long": "Zinc",
 	"RDA":  ["??",
 		],

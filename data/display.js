@@ -11,10 +11,11 @@ function display() {
 	name.appendChild(cellText);
 	row.appendChild(name);
 
-	var nutrients = document.createElement("td");
-	for (var j = 0; j < food.nutrients; j++) {
-	    var cellText = document.createTextNode();
-	   nutrients.appendChild(cellText);
+	for (var j = 0; j < food.foodNutrients.length; j++) {
+	    var nutrient = food.foodNutrients[j].nutrient;
+	    var nutrients = document.createElement("td");
+	    var cellText = document.createTextNode(nutrient.name + "=" + nutrient.rank);
+	    nutrients.appendChild(cellText);
 	    row.appendChild(nutrients);
 	    t.appendChild(row);
 	}

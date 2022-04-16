@@ -2,7 +2,15 @@
     {
 	"author": "Dov Kruger",
 	"contact": "dkruger@stevens.edu",
-	"source": "https://www.hsph.harvard.edu/nutritionsource/vitamin-a/"
+	"source": ["www.hsph.harvard.edu/nutritionsource/",
+		   "www.ncbi.nlm.nih.gov/books/NBK222310/pdf/Bookshelf_NBK222310.pdf"],
+	{
+	    "AI" : "Adequate Intake, typically when RDA has not been sufficiently established",
+	    "RDA": "Recommended Daily Allowance",
+	    "UL": "Upper Level beyond which toxic effects are common",
+	    "unit": "The unit in which all numbers for RDA, AI, UL are specified",
+	    
+	}
     },
     {
 	"name": "vA",
@@ -62,16 +70,23 @@
     {
 	"name": "vB9",
 	"long": "Folate",
-	"RDA":  ["??",
+	"unit": "μg",
+	"RDA":  ["adults 19+", 400,
+		 "regular alcohol drinkers", 600,
+		 "pregnant and lactating", 600
 		],
-	"UL": []
+	"UL": [1000]
     },
     {
 	"name": "vB12",
 	"long": "Cobalamin",
-	"RDA":  ["??",
+	"unit": "μg",
+	"RDA":  ["adults 14+", 2.4,
+		 "pregnant", 2.6,
+		 "lactating", 2.8
 		],
-	"UL": []
+	"UL": [],
+	"warning": [25, "above may have increased risk of bone fracture"]
     },
     {
 	"name": "vC",
@@ -107,7 +122,9 @@
     {
 	"name": "vK",
 	"long": "Vitamin K",
-	"RDA":  ["??",
+	"unit": "μg",
+	"RDA":  ["men 19+",120,
+		 "women 19+", 90
 		],
 	"UL": []
     },
@@ -115,8 +132,8 @@
     {
 	"name": "mCa",
 	"long": "Calcium",
-	"RDA":  ["mg",
-		 "men 19-70", 1000,
+	"unit": "mg",
+	"RDA":  ["men 19-70", 1000,
 		 "men 71+", 1200,
 		 "women 19-50", 1000,
 		 "women 51+", 1200
@@ -124,60 +141,120 @@
 	"UL": ["adults", 2000]
     },
     {
-	"name": "mCu",
-	"long": "Copper",
-	"RDA":  ["??",
+	"name": "mCr",
+	"long": "Chromium",
+	"unit": "μg",
+	"AI":  ["men 19-50", 35,
+		"women 19-50", 25,
+		"pregnant", 40,
+		"lactating", 45
 		],
 	"UL": []
     },
     {
-	"name": "mMg",
-	"long": "Magnesium",
-	"RDA":  ["??",
+	"name": "mCu",
+	"long": "Copper",
+	"unit": "μg",
+	"RDA":  ["adults 19+", 900,
+		 "pregnant", 1000,
+		 "lactating", 1300
 		],
 	"UL": []
+    },
+    {
+	"name": "mFe",
+	"long": "Iron",
+	"unit": "mg",
+	"RDA":  ["men 19-50", 8,
+		 "women 19-50", 18, 
+		 "pregnant", 27,
+		 "lactating", 9,
+		 "boys 14-18", 11,
+		 "girls 14-18", 15,
+		 "lactating girls 14-18", 10,
+		 "post-menopause women", 8
+		],
+	"UL": []
+    },
+    {
+	"name": "mI",
+	"long": "Iodine",
+	"unit": "μg",
+	"RDA":  ["adults 19+", 95,
+		 "children 1-8", 90,
+		 "children 9-13", 120,
+		 "children 14-18", 150,
+		 "pregnant women", 220,
+		],
+	"UL": []
+    },    
+    {
+	"name": "mMg",
+	"long": "Magnesium",
+	"unit": "μg",
+	"RDA":  ["men 19+", 420,
+		 "women 19+", 320,
+		 "pregnant", 360,
+		 "lactating", 320
+		],
+	"UL": ["adults", 350],
+	"ULsymp": "diarrhea, nausea, cramping"
     },
     {
 	"name": "mK",
 	"long": "Potassium",
-	"RDA":  ["??",
+	"RDA":  [
+		],
+	"UL": []
+    },
+    {
+	"name": "mMn",
+	"long": "Manganese",
+	"unit": "mg",
+	"AI":  ["men 19+", 2.3,
+		"women 19+", 1.8,
+		"pregnant", 2.0,
+		"lactating", 2.6
+		],
+	"UL": []
+    },
+    {
+	"name": "mMo",
+	"long": "Molybdenum",
+	"unit": "μg",
+	"RDA":  [
 		],
 	"UL": []
     },
     {
 	"name": "mP",
 	"long": "Phosphorus",
-	"RDA":  ["??",
+	"unit": "mg",
+	"RDA":  ["adults 19+", 700
 		],
-	"UL": []
-    },
-    {
-	"name": "mMn",
-	"long": "Manganese",
-	"RDA":  ["??",
-		],
-	"UL": []
-    },
-    {
-	"name": "mMn",
-	"long": "Manganese",
-	"RDA":  ["??",
-		],
-	"UL": []
+	"UL": ["adults 19-70", 4000,
+	       "adults 71+", 3000,
+	       "pregnant", 3500,
+	       "lactating", 4000]
     },
     {
 	"name": "mSe",
 	"long": "Selenium",
-	"RDA":  ["??",
+	"unit": "μg",
+	"RDA":  ["adults 19+", 55,
+		 "pregnant", 60,
+		 "lactating", 70
 		],
-	"UL": []
+	"UL": ["adults", 400]
+	"defsymp": "Keshan disease, Kashin-Beck disease, nausea, vomiting, headaches, altered mental state/confusion, lethargy, seizures, coma",
+	"ULsymp": "metallic taste/bad breath, nausea/diarrhea, hair loss, nail brittleness or discoloration, skin rash or lesions, skin flushing, fatigue, irritability, muscle tenderness"	
     },
     {
 	"name": "mNa",
 	"long": "Sodium",
-	"RDA":  ["??",
-		],
-	"UL": []
+	"unit": "mg",
+	"AI":  ["14+", 1500],
+	"CDRR": ["14+", 2300]
     },
     {
 	"name": "mZn",

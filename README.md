@@ -4,7 +4,7 @@ author: Dov Kruger
 
 This project is created in order to create a single unified database of nutrition to facilitate eating healthily. People with kidney stones need to track oxalates and make sure they are getting enough calcium. People with diabetes need to be able to track sugar and glycemic index. People on various diets want to track calories and nutrition. This project aims to collate all this data into a single clean JSON file for foods.
 
-USDA has a great database for processed foods and nutritional content, but I could not find raw fruits and vegetables. The Canadian equivalent has a database released as multiple csv files but it is denormalized, so code will have to be written to generate a combined query.
+USDA has a great database for processed foods and nutritional content, but I could not find raw fruits and vegetables. It is obviously there, but has to be found. The Canadian equivalent has a database released as multiple csv files but it is denormalized, so code will have to be written to generate a combined query.
 
 Harvard has a good site summarizing nutritional requirements and upper limits for many common nutrients. I also found an NIH publication that summarizes all the research including minerals not even listed on the Harvard site, with much more information on methodology than most people (including me) would ever want to know. The sources are listed in each file that uses them.
 
@@ -42,4 +42,5 @@ Steven Gundry: https://en.wikipedia.org/wiki/Steven_Gundry
 
 The processing instructions that are well established will also be placed in this project. Ideally they are in a very short document so people can read it, but also could be in an expert system. Thus for example, someone making oxalate stones could get a recipe on making a lentil soup and would be told that soaking lentils or beans will reduce the oxalate count. This is extremely well documented.
 
-Another claim made by Dr. Fuhrman is that eating nuts and seeds containing oils in the same meal as eating greens and berries rich in oil-soluble vitamins increases nutrient uptake. While this 
+
+Another claim made by Dr. Fuhrman is that eating nuts and seeds containing oils in the same meal as eating greens and berries rich in oil-soluble vitamins increases nutrient uptake. This seems to make intuitive sense, but has to be vetted. Dr. Fuhrman also makes claims that taking a multivitamin containing folic acid is not beneficial, that folate should be obtained from nutritious food. This kind of claim must be carefully vetted as it does not appear to have the same kind of unimpeachable large scale studies behind it.blackberryblackberry

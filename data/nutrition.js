@@ -1,4 +1,4 @@
-{
+var nutrition = {
     "metadata": {
 	"doc": "Food Attribute Database",
 	"author": "Dov Kruger",
@@ -19,7 +19,7 @@
 	    "antinutrient":"A chemical compound that binds to specific nutrients rendering them unavailable"	    
 	},
     },
-    "nutrients":{ [
+    "nutrients": [
 	{
 	    "name": "vA",
 	    "long": "Vitamin A",
@@ -79,8 +79,8 @@
 	    "name": "vB6",
 	    "long": "vitamin B6",
 	    "alt": "Pyroxidine",
-	    "RDA":  ["mg",
-		     "men 14-50", 1.3,
+	    "unit": "mg",
+	    "RDA":  ["men 14-50", 1.3,
 		     "men 51+", 1.7,
 		     "women 14-18", 1.2,
 		     "women 19-50", 1.3,
@@ -111,7 +111,8 @@
 		     "lactating", 2.8
 		    ],
 	    "UL": [],
-	    "warning": [25, "above may have increased risk of bone fracture"]
+	    "warning": [
+		25, "above may have increased risk of bone fracture"]
 	},
 	{
 	    "name": "vC",
@@ -249,8 +250,7 @@
 	    "name": "mMo",
 	    "long": "Molybdenum",
 	    "unit": "μg",
-	    "RDA":  [
-	    ],
+	    "RDA":  [],
 	    "UL": []
 	},
 	{
@@ -320,10 +320,7 @@
 	    "UL": [],
 	    "ULsymp": "",
 	    "benefits":"",
-	    "sources":[
-		]
-	},
-    ]}
-}
-    
-
+	    "sources":[]
+	}
+    ]
+};

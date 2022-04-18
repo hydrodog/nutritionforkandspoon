@@ -1,0 +1,47 @@
+/*
+    fetch('nutrient_metadata.json')
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (data) {
+            appendData(data);
+        })
+        .catch(function (err) {
+            console.log('error: ' + err);
+        });
+*/
+  function buildrow() {
+      let row = document.createElement("tr");
+      for (let i = 0; i < arguments.length; i++) {
+	  let c = document.createElement("td");
+	  c.innertHTML = arguments[i];
+	  row.appendChild(c);
+      }
+      return row;
+  }
+  function buildtable() {
+      let t = document.createElement("table");
+      if (arguments.length > 0) {
+	  let row = document.createElement("tr");
+	  for (let i = 0; i < arguments.length; i++) {
+	    let c = document.createElement("th");
+	    c.innertHTML = arguments[i];
+	    row.appendChild(c);
+          }
+      }
+      return t;
+  }
+
+function append(dest, data) {
+    let c = document.getElementById(dest);
+    let meta = data.meta;
+    let nutrients = data.nutrients;
+    for (let i = 0; i < nutrients.length; i++) {
+	let n = nutrients[i];
+        let div = document.createElement("div");
+	let name = n.name + " " +
+	    (typeof(n.alt)=='undefined' ? '' : n.alt);
+        div.innerHTML = name;
+        mainContainer.appendChild(div);
+    }
+}

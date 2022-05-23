@@ -4,6 +4,8 @@ author: Dov Kruger
 
 This project is created in order to create a single unified database of nutrition to facilitate eating healthily. People with kidney stones need to track oxalates and make sure they are getting enough calcium. People with diabetes need to be able to track sugar and glycemic index. People on various diets want to track calories and nutrition. This project aims to collate all this data into a single clean JSON file for foods.
 
+Along the way in my research I have also found that some foods can be dangerous in quantities that could conceivably be eaten, and so warnings should be available. For example Brazil nuts are rich in Selenium, but so rich that 4 a day could put someone over the upper limit, so 8 a day could incur serious side effects. Similarly chinese cinnamon (the ordinary, cheaper kind) can cause liver damage, and flax seeds while extremely healthy contain cyanide, and while it would take 1kg/day to be dangerous, it should generate a warning.
+
 USDA has a great database for processed foods and nutritional content, but I could not find raw fruits and vegetables. It is obviously there, but has to be found. The Canadian equivalent has a database released as multiple csv files but it is denormalized, so code will have to be written to generate a combined query.
 
 Harvard has a good site summarizing nutritional requirements and upper limits for many common nutrients. I also found an NIH publication that summarizes all the research including minerals not even listed on the Harvard site, with much more information on methodology than most people (including me) would ever want to know. The sources are listed in each file that uses them.
